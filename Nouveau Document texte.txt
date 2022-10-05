@@ -19,24 +19,15 @@
 </head>
 
 <body>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" alt="logo bootstrap">
   <div class="container-fluid">
     <div class="row">
       <form style="margin:50px;">
         <div class="form-group">
-          <label for="Name">FirstNAme</label>
+          <label for="Name">Name</label>
           <input type="text" id="Name" class="form-control">
         </div>
         <div class="form-group">
-          <label for="Name">LastNAme</label>
-          <input type="text" id="Name" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="email">Addresse M'Email</label>
-          <input type="text" id="email" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="email">Comentaire</label>
+          <label for="email">Email</label>
           <input type="text" id="email" class="form-control">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
